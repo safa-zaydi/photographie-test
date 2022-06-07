@@ -1,0 +1,81 @@
+*{margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.main-container{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%),
+               -30px 0px 40px rgb(0 0 0 / 10%);
+    
+}
+.hero{
+    display: flex;
+   
+}
+.left-side{
+   
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-right: 100px;
+margin: 40px;
+
+}
+.title {
+    font-size: 40px;
+  }
+  
+  .sub-title {
+    color: #aaaaaa;
+    margin-top: 10px;
+  }
+  
+  .button {
+    display: block;
+    border: 1px solid #eeeeee;
+    border-radius: 25px;
+    min-width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .camera-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: 50%;
+  }
+  
+  .our-work {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .card {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 30px;
+  }
+  .footer{
+      text-align: center;
+      margin-top: 20px;
+      color: #333333;
+  }
+  .footer footer p {
+    margin-top: 20px;
+    font-weight: bold;
+  }
